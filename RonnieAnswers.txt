@@ -1,0 +1,644 @@
+QUESTION 1
+grep -E ^Z cities.txt
+
+Zaoshi
+Zhukeng
+Zhongxi
+Zwettl
+Zaragoza
+Zheshart
+Zhuji
+Zadvorsko
+Zhoujia
+
+Question 2
+grep -E *gan$ cities.txt
+Tougan
+Pedaringan
+Banjar Sambangan
+Salingogan
+
+QUESTION 3
+grep ^[A | D | E] cities.txt
+Anticala
+Algés
+Detroit
+Dvinskoy
+Amassama
+Eucaliptus
+Anahanahana
+Ar Rawḑah
+Duancun
+Anina
+Ateleta
+Eskilstuna
+Akademgorodok
+Adela
+Atarodangwautu
+Dongfu
+Dan Sadau
+Arraial do Cabo
+El’brus
+Aubagne
+Domsjö
+Domampot
+Damāvand
+Al Ḩīlah
+Dimovo
+Dori
+Dalongtan
+Dagang
+Dongsheng
+Aanislag
+Doctor Juan León Mallorquín
+Ampeleíes
+Dřiteň
+Dijon
+Antofagasta
+Dorchester
+El Limon
+Esperantina
+Abricots
+Emiliano Zapata
+Dykan’ka
+Daleszyce
+Ar Rawḑah
+Dongchuan
+Danyang
+Dawan
+Erdaocha
+Artémida
+Alberton
+Denton
+Ayapa
+Dengzhuang
+Ambohitrolomahitsy
+
+QUESTION 4
+grep -E \<.[[a][r]]* cities.txt
+Farkaždin
+Saint-Laurent-du-Var
+Barra do Bugres
+Karanglincak
+Caraparac
+Paris 01
+Kardítsa
+Zaragoza
+Carmen
+Villa María
+Paris 14
+Carabamba
+Caraguatatuba
+Karolino-Buhaz
+Vargön
+Maruoka
+Varnávas
+Mariefred
+Sarov
+Karbinci
+Bajo Naranjillo
+Barão de Cocais
+
+QUESTION 5
+grep ^[^C] cities.txt
+Orlando
+Vilnius
+Bangassou
+Anticala
+Longquan
+Pesagen
+Il’ka
+Stockholm
+Kujang
+Gjegjan
+San Vicente Pacaya
+Xiashan
+Masjed Soleymān
+Magdeburg
+Mogzon
+Ibirataia
+Farkaždin
+Kandana
+Algés
+Detroit
+Robertsfors
+Samothráki
+Manganitu
+Monastirákion
+Saint-Laurent-du-Var
+Topolná
+Manzanillo
+Heze
+La Mesa
+Dvinskoy
+Zaoshi
+Pentaplátano
+Qal‘at Bīshah
+Fukagawa
+Amassama
+Naprawa
+Yanaul
+Rimbo
+Pajé
+Jeju-si
+Izobil’nyy
+Eucaliptus
+Namling
+Anahanahana
+Jiufeng
+Paiçandu
+Xiaotang
+Ujsoły
+Huarancante
+Barra do Bugres
+Plavsk
+Zhukeng
+Ar Rawḑah
+Pittsburgh
+Tandaltī
+Santa Lucia
+Yangping
+Jingyang
+Zhongxi
+Phú Túc
+Duancun
+Potęgowo
+Linköping
+Fresno
+Huangludian
+Macabugos
+Jimenez
+Wufeng
+Anina
+Luau
+Poděbrady
+Quinta do Anjo
+Kalá Déndra
+Tougan
+Ganja
+San Rafael
+Tyresö
+Ludgeřovice
+Pelem
+Phra Yuen
+Weligama
+Poli
+Waterbury
+Wińsko
+Ateleta
+Senj
+Vicente Guerrero
+São Pedro da Aldeia
+Golubinci
+Stockholm
+Burujul
+Vienne
+Karanglincak
+Kassándreia
+Eskilstuna
+Puamata
+London
+Jawornik
+Akademgorodok
+Tríkala
+Baugo
+Wuqiao
+Adela
+Kombissiri
+Неготино
+Surubim
+Atarodangwautu
+Jadowniki
+Dongfu
+Quận Phú Nhuận
+Russas
+Houston
+Mshinskaya
+Borehbangle
+Niverville
+Vale Flores
+Río Sereno
+Melaka
+Pau
+Uvarovo
+Pancan
+Kiryū
+Pedaringan
+Salon-de-Provence
+Toul
+Gaoming
+Gerelayang
+Minna
+Gaocang
+Lanlongkou
+Tsirang
+Nanshan
+Zwettl
+Ketanggi
+Leloboko
+Manutapen
+Jiangzao
+Xiangfu
+Waoundé
+Tabuaço
+Rancakuya
+Blinsung
+Rîşcani
+Gongfang
+Srabah
+Fazhan
+Litvínovice
+Goraj
+Itoigawa
+Santa Adélia
+Shuangmiao
+Skärholmen
+Itaberaí
+Sydney
+Pont-Audemer
+Sfax
+Pechenizhyn
+Santa Nino
+Rosh Pinna
+Pa Phayom
+Buga
+Sceaux
+Sendangkemulian
+Tangfang
+Longtanhe
+Jirjā
+Gagarin
+Pasirdalem
+Paris 01
+Ntsoudjini
+Dan Sadau
+Ipoh
+Jāsk
+Arraial do Cabo
+Paprotnia
+Shazhouba
+Jawatiwa
+Tran
+Storozhevaya
+Kokhanava
+Santa Rosa de Viterbo
+El’brus
+Vertientes
+Aubagne
+Domsjö
+Huayang
+Riti
+Sitampiky
+Vancouver
+Fukura
+Banjar Kelodan
+Rio Real
+Tvrdonice
+Domampot
+Kardítsa
+Katiola
+Damāvand
+Mulchén
+Kallar Kahār
+Al Ḩīlah
+Liaonan
+Satsumasendai
+Buôn Ma Thuột
+Belišće
+Vicente Guerrero
+La Cruz de Río Grande
+Navan
+Ronggo
+Klenčí pod Čerchovem
+Sinfra
+Dimovo
+Štěnovice
+Los Santos
+San Miguel
+Dori
+Nishi-Tokyo-shi
+Koua
+Kuršėnai
+Gumaus
+Vatutino
+Magbay
+Dalongtan
+Tyachiv
+Sayansk
+Beijie
+Mmaaf
+Nakanojōmachi
+Bukbatang
+Pule
+Semampir
+Malaga
+Salinas
+Yelizovo
+Xiaoshan
+Longwood
+Tokuyama
+Zaragoza
+Fresno
+Lac du Bonnet
+Kapuskasing
+Shimabara
+Xiangzhou
+Zheshart
+Balneário Camboriú
+Ravne
+Mataloko
+Dagang
+Sanjia
+Yanzhao
+Gesikan
+Ichnya
+Bundoc
+Dongsheng
+Noxon
+Jixiang
+Neuzina
+Jishu
+Pingyang
+Turanj
+Saint-Péray
+Kedungbulu
+Trondheim
+Madan
+Villa María
+Aanislag
+Paris 14
+Lashkar Gāh
+Saguiaran
+Tawan tawan
+Māmūnīyeh
+Doctor Juan León Mallorquín
+Ampeleíes
+Quitilipi
+Hupalivka
+Békéscsaba
+Guadalupe
+Pacora
+Volovo
+Qijia
+Taber
+Wasquehal
+Badar
+Pico da Pedra
+Junín
+London
+Dřiteň
+Szklarska Poręba
+Kertasari
+Mautapaga Bawah
+Ngepoh Kidul
+Xingfeng
+Xinsheng
+Dijon
+Poshnje
+Antofagasta
+Tomé
+Pallasovka
+Bagumbayan
+Jājarm
+Xinxing
+Bošnjaci
+Trongsa
+Kawangkoan
+Panay
+Invercargill
+Taltal
+Dorchester
+Birigui
+Banjar Sambangan
+Weitang
+Thị Trấn Mỹ Lộc
+Guarapari
+Hubynykha
+Semalang
+Kaskinen
+Issoudun
+Mosoc Llacta
+Monjarás
+Monte Azul Paulista
+Lagnieu
+El Limon
+Kruhlaye
+Karolino-Buhaz
+Mancha Khiri
+Yangxu
+Sanom
+Skoczów
+Esperantina
+Guishan
+Крива Паланка
+Umeå
+Yuanjiazhuang
+Tianjiazhuang
+Ngulung Wetan
+Madrid
+Stulovo
+Sadar
+Bharatpur
+Zhuji
+New Orleans
+Abricots
+Nabunturan
+Lunas
+Jhang Sadr
+Tadabliro
+Emiliano Zapata
+Sidayu
+Dykan’ka
+Vargön
+Guazapa
+Bahía Honda
+Ždánice
+Omutninsk
+Timurjaya
+Ingersoll
+Hawassa
+Daleszyce
+Manturovo
+Meikeng
+Sinisian
+Ar Rawḑah
+Sengeti
+Dongchuan
+Smiths Falls
+Wŏnsan
+Vynohradiv
+Santa Cruz das Palmeiras
+Sámara
+Strabychovo
+Rosario de Mora
+General Manuel J. Campos
+Hroznětín
+Úštěk
+Lukovë
+Bayt Yāshūţ
+Benito Juarez
+Danyang
+Saint-Quentin-en-Yvelines
+Dawan
+Salingogan
+Erdaocha
+Tabango
+Lomintsevskiy
+Quba
+Xiangyanglu
+Banjar Dharmasemedi
+Porto Ferreira
+Maruoka
+Baclayon
+Sandayong Sur
+Əhmədbəyli
+Villa Gesell
+Linamon
+Łeba
+Ishii
+Mekarjaya
+Burgos
+Gävle
+Banocboc
+Thị Trấn Ngọc Lặc
+Hengfeng
+Kadubincarung
+Varnávas
+Mariefred
+Baqiu
+Mesa
+Qingzhou
+Maszkienice
+Artémida
+Luqiao
+Inya
+Alberton
+Tucheng
+Takai
+Ingersoll
+Sayán
+Nuga
+Sarov
+Bukowiec
+Maigo
+Longfeng
+Uluale
+Denton
+Zadvorsko
+Tandayag
+Refojos de Riba de Ave
+Bečej
+Sainte-Sophie
+Miaotang
+Haoba
+Gojō
+Santa Cruz
+San Vicente
+Nyimba
+Magisterial
+Valencia
+Salt Lake City
+Sim
+Nadi
+Bugul’ma
+Longquan
+Sioah
+Tyachiv
+Qianjin
+Na Tan
+Ayapa
+Keli
+Gostimë
+Zhoujia
+Orange
+Beiwucha
+Kiukainen
+Saga
+Karbinci
+Bayan Uula Sumu
+Békéscsaba
+Bajo Naranjillo
+Tonantins
+Thành Phố Phủ Lý
+Tamnag
+San Cristóbal
+Dengzhuang
+Horní Jiřetín
+Takāb
+Yangzhong
+Xiaojing
+Malummaduri
+Xiangshan
+Mrzeżyno
+Lengkongjaya
+Bousso
+Santa Cruz
+Ambohitrolomahitsy
+Sūrāb
+Paltashaco
+Barão de Cocais
+Bambuí
+
+QUESTION 6
+grep -E .{14} cities.txt
+San Vicente Pacaya
+Masjed Soleymān
+Saint-Laurent-du-Var
+Charlottenberg
+Barra do Bugres
+Quinta do Anjo
+Vicente Guerrero
+São Pedro da Aldeia
+Atarodangwautu
+Quận Phú Nhuận
+Salon-de-Provence
+Sendangkemulian
+Arraial do Cabo
+Santa Rosa de Viterbo
+Banjar Kelodan
+Vicente Guerrero
+La Cruz de Río Grande
+Klenčí pod Čerchovem
+Nishi-Tokyo-shi
+Balneário Camboriú
+Doctor Juan León Mallorquín
+Szklarska Poręba
+Mautapaga Bawah
+Banjar Sambangan
+Thị Trấn Mỹ Lộc
+Monte Azul Paulista
+Karolino-Buhaz
+Emiliano Zapata
+Santa Cruz das Palmeiras
+Rosario de Mora
+General Manuel J. Campos
+Saint-Quentin-en-Yvelines
+Challhuahuacho
+Banjar Dharmasemedi
+Porto Ferreira
+Thị Trấn Ngọc Lặc
+Refojos de Riba de Ave
+Salt Lake City
+Bayan Uula Sumu
+Chervonopartyzans’k
+Bajo Naranjillo
+Thành Phố Phủ Lý
+Ambohitrolomahitsy
+Barão de Cocais
+
+QUESTION 7
+grep -c ^B cities.txt
+39
+
+QUESTION 8
+grep -c d cities.txt
+79
+
+QUESTION 9
+grep -E (.)\1$ cities.txt
+
+QUESTION 10
+grep -wi ^\(.\)\(.\).\2\1 cities.txt
+Anina
+Navan
+Noxon
